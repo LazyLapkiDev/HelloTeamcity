@@ -1,0 +1,6 @@
+@WebAppForTeamCityDeploy_HostAddress = http://localhost:5276
+
+GET {{WebAppForTeamCityDeploy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
