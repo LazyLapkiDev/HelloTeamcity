@@ -1,4 +1,6 @@
 
+using WebAppForTeamCityDeploy.Api;
+
 namespace WebAppForTeamCityDeploy
 {
     public class Program
@@ -25,6 +27,7 @@ namespace WebAppForTeamCityDeploy
 
             app.UseAuthorization();
 
+            app.MapApi();
             app.Run();
         }
     }
